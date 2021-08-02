@@ -8,4 +8,4 @@ var frase = 'Ferrari é a melhor equipe';
 
 console.log(nome);
 console.log(idade + idade2);
-console.log(frase.toLowerCase());
+console.log(frase.toUpperCase());
