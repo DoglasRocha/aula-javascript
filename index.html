@@ -5,6 +5,14 @@
         <meta charset="UTF-8">
         <script text="text/javascript" src="js/main.js"></script>
     </head>
-    <body>
+    <body onload="load()">
+        <button type="button" onclick="botao()">Clique aqui</button>
+        <h3 id="agradecimento" onclick="redirecionar()"></h3>
+        <h3 id="mouse_move" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h3>
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
     </body>
 </html>

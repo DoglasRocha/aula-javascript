@@ -77,3 +77,26 @@ console.log(validaIdade(idade));
 console.log(soma(5, 40));
 // console.log(setReplace('Mercedes é o melhor time!', 'Mercedes', 'Ferrari')); */
 
+function botao() {
+    document.getElementById('agradecimento').innerHTML = 'Obrigado por clicar'
+}
+
+const redirecionar = () => {
+    window.location.href = 'https://github.com/DoglasRocha';
+}
+
+const trocar = (element) => {
+    element.innerHTML = 'Obrigado por passar o mouse';
+}
+
+const voltar = (element) => {
+    element.innerHTML = 'Passe o mouse aqui';
+}
+
+const load = () => {
+    alert('Página carregada');
+}
+
+const funcaoChange = (elemento) => {
+    console.log(elemento.value)
+}
